@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Plus Weather App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <br />
+    <div class="weather-app">
+      <form id="city-search-form">
+        <input
+          type="text"
+          id="city-input"
+          value="Enter a city.."
+          required
+          class="city-search"
+        />
+        <input type="submit" value="Search" class="submit-button" />
+      </form>
+      <br />
+      <hr />
+      <section>
+        <h1 class="city" id="current-location">San Francisco</h1>
+        <p>
+          <span id="current-date"></span><br />
+          Humidity:<span class="pink"> 79%</span>, Wind:
+          <span class="pink">5.36km/h</span>
+        </p>
+      </section>
+
+      <h1 class="temperature"><span class="temp">12</span><span>°F</span></h1>
+
+      <ul>
+        <li>
+          Sun
+          <br />
+          <img src="src/images/raincloud.png" />
+          <br />
+          14°/12°
+        </li>
+        <br />
+        <li>
+          Mon
+          <br />
+          <img src="src/images/raincloud.png" />
+          <br />
+          16°/12°
+        </li>
+        <br />
+        <li>
+          Tue
+          <br />
+          <img src="src/images/raincloud.png" />
+          <br />
+          16°/14°
+        </li>
+        <br />
+        <li>
+          Wed
+          <br />
+          <img src="src/images/raincloud.png" />
+          <br />
+          14°/13°
+        </li>
+        <br />
+        <li>
+          Thu
+          <br />
+          <img src="src/images/raincloud.png" />
+          <br />
+          15°/13°
+        </li>
+      </ul>
+
+      <hr />
+      <footer>
+        <center>
+          This project was coded by
+          <a href="#" target="_blank">Manhatten Royal</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </center>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

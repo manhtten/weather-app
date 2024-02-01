@@ -1,0 +1,93 @@
+body {
+  background-color: #f9f7fd;
+  padding: 60px;
+  font-family: roboto;
+}
+
+.weather-app {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    margin: 6px;
+    box-shadow: 0 2px 5px rgb(172, 167, 224)
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.city-search, .submit-button {
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+.city-search{
+background-color: #f9f7fd;
+width: 400px;
+font-size: 15px;
+
+}
+
+.submit-button{
+background-color: #885df1;
+color: white;
+}
+
+section p {
+  position: relative;
+  top: 4px;
+  color: rgb(117, 130, 130);
+}
+
+h1.temperature,
+h1.city {
+  font-family: roboto;
+  font-weight: bold;
+  display: flex;
+}
+
+h1.city {
+  justify-content: start;
+  font-size: 34px;
+}
+
+h1.temperature {
+  justify-content: end;
+  position: relative;
+  bottom: 150px;
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+span.pink {
+  color: #f65281;
+  font-weight: bold;
+}
+
+span.temp {
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+h1 span {
+    font-weight: lighter;
+    font-size: 30px;
+    position: relative;
+    top: 14px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 100px;
+}
+
+footer {
+    position: relative
+    bottom: -200px;
+}
